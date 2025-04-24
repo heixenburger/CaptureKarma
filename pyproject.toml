@@ -1,0 +1,20 @@
+[project]
+name = "capturekarma-screen-capture"
+version = "0.1.0"
+description = "CaptureKarma Screen Capture Tool with scrolling capabilities for marketing content"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pyautogui",
+    "PyQt5",
+    "opencv-python",
+    "numpy",
+    "mss",
+    "Pillow",
+    "pynput",
+    "pygetwindow",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
