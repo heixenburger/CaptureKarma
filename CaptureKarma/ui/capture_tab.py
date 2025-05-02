@@ -74,7 +74,7 @@ class CaptureTab(QtWidgets.QWidget):
         scroll_params_layout = QtWidgets.QFormLayout()
         
         self.scroll_amount_spin = QtWidgets.QSpinBox()
-        self.scroll_amount_spin.setRange(-10000, 10000)
+        self.scroll_amount_spin.setRange(-1000000, 1000000)
         self.scroll_amount_spin.setValue(-1000)
         self.scroll_amount_spin.setSingleStep(100)
         scroll_params_layout.addRow("Scroll Amount (- for down, + for up):", self.scroll_amount_spin)
